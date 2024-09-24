@@ -5,23 +5,38 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --primary : #334839;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  --header-height: 100px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+.h1{
+  font-size: 32px;
+  @media (min-width: 768px) {
+    font-size: 45px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 60px;
+  }
+  @media (min-width: 1600px) {
+    font-size: 72px;
+  }
+}
+
+.h2{
+  font-size: 32px;
+  @media (min-width: 768px) {
+    font-size: 38px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 45px;
+  }
+  @media (min-width: 1600px) {
+    font-size: 52px;
   }
 }
