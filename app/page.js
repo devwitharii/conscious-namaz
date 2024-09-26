@@ -1,7 +1,9 @@
 import Button from "@/src/components/Button";
 import HomeBanner from "@/src/components/Home/HomeBanner";
-import HomeSection from "@/src/components/Home/HomeSection";
+import HomeReviews from "@/src/components/Home/HomeReviews";
+import HomeInsights from "@/src/components/Home/HomeInsights";
 import SubscriptionPlan from "@/src/components/Home/SubscriptionPlan";
+import HomeFaq from "@/src/components/Home/HomeFaq";
 
 export default function Home() {
   return (
@@ -16,7 +18,9 @@ export default function Home() {
         </div>
       </div>
       <SubscriptionPlan/>
-      <HomeSection />
+      <HomeReviews/>
+      <HomeInsights />
+      <HomeFaq/>
     </>
   );
 }

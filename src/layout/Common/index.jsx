@@ -7,7 +7,6 @@ const CommonLayout = ({ children }) => {
     <>
       <Header />
       {children}
-      <Footer />
     </>
   );
 };

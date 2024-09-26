@@ -21,12 +21,12 @@ const SubscriptionPlan = () => {
                             className="object-cover"
                             />
                         </figure>
-                        <div className="p-5 flex flex-col bg-white rounded-b-[6px]">
+                        <div className="p-5 flex flex-col bg-white rounded-b-[6px] flex-1">
                             <div className="flex-1 flex items-center">
                             <p className="text-lg xl:text-xl text-primary lg:text-black"> Tahajjud Namaaz <br/><strong>Three-day</strong> Program </p>
                             </div>
                             <div className="flex gap-4 gap-lg-5 pt-5">
-                                <Button  varient="outline-primary">learn more</Button>
+                                <Button className={"flex-1"} varient="outline-primary">learn more</Button>
                                 <Button className={"flex-1"}>BUY NOW</Button>
                             </div>
                         </div>
@@ -42,12 +42,12 @@ const SubscriptionPlan = () => {
                             className="object-cover"
                             />
                         </figure>
-                        <div className="p-5 flex flex-col bg-white rounded-b-[6px]">
+                        <div className="p-5 flex flex-col bg-white rounded-b-[6px] flex-1">
                             <div className="flex-1 flex items-center">
                             <p className="text-lg xl:text-xl text-primary lg:text-black"> Personalised and Guided Islamic Meditation <strong>(3 sessions of one hour each)@ (5999Rs) </strong></p>
                             </div>
                             <div className="flex gap-4 gap-lg-5 pt-5">
-                                <Button  varient="outline-primary">learn more</Button>
+                                <Button className={"flex-1"} varient="outline-primary">learn more</Button>
                                 <Button className={"flex-1"}>BUY NOW</Button>
                             </div>
                         </div>
@@ -63,12 +63,12 @@ const SubscriptionPlan = () => {
                             className="object-cover"
                             />
                         </figure>
-                        <div className="p-5 flex flex-col bg-white rounded-b-[6px]">
+                        <div className="p-5 flex flex-col bg-white rounded-b-[6px] flex-1">
                             <div className="flex-1 flex items-center">
                                 <p className="text-lg xl:text-xl text-primary lg:text-black"> Group Meditations <strong>(8999Rs) (3 sessions of one hour each- Only ten people per session)</strong></p>
                             </div>
                             <div className="flex gap-4 gap-lg-5 pt-5">
-                                <Button  varient="outline-primary">learn more</Button>
+                                <Button className={"flex-1"} varient="outline-primary">learn more</Button>
                                 <Button className={"flex-1"}>BUY NOW</Button>
                             </div>
                         </div>
