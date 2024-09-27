@@ -40,3 +40,23 @@ body {
     font-size: 52px;
   }
 }
+
+.admin-content-area{
+  @media (min-width : 992px) {
+    font-size: 18px;
+   }
+   * + *{
+     margin-top: 20px;
+     line-height: 1.5;
+     @media (min-width : 992px) {
+      margin-top: 32px;
+     }
+   }
+   ol{
+    list-style: decimal;
+    padding-left: 16px;
+    @media (min-width : 992px) {
+      padding-left: 26px;
+    }
+   }
+}

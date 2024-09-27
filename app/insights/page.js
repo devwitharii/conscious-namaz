@@ -1,7 +1,9 @@
-import React from "react";
+import InsightListing from "@/src/components/InsightListing";
 
 const InsightsPage = () => {
-  return <div>InsightsPage</div>;
+  return (
+    <InsightListing />
+  )
 };
 
 export default InsightsPage;

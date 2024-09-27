@@ -42,7 +42,7 @@ const HEADER_DATA = {
       label: "Home",
     },
     {
-      url: "/about",
+      url: "/about-us",
       label: "About",
     },
     {
@@ -50,7 +50,7 @@ const HEADER_DATA = {
       label: "Insights",
     },
     {
-      url: "/faq",
+      url: "/#faq",
       label: "FAQs",
     },
   ],

@@ -4,13 +4,13 @@ import React from 'react'
 
 const BlogCard = ({ img, title, description, time, url }) => {
   return (
-    <Link href={url || ""} className='flex flex-col h-full'>
+    <Link href={url || ""} className='flex flex-col h-full group'>
       <figure className='overflow-hidden pb-[56.28%] rounded-[3px] mb-2 lg:mb-3 relative'>
         <Image
         src={img || ""}
         alt={title || ""}
         fill
-        className='object-cover'
+        className='object-cover group-hover:scale-105 transition-transform duration-300'
         />
       </figure>
       <div className='flex flex-1 flex-col text-primary'>

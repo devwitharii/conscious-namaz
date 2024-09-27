@@ -67,20 +67,20 @@ const data = [
     description : "The human mind runs on two modes, one is conscious and the other is subconscious. For an average human being, 95% of the time during their state of wakefulness, the subconscious mind operates, and barely 5% the conscious mind comes to play. To understand the conscious mind, we need to first understand the subconscious mind a little deeper. Let’s look into the activities that the subconscious mind operates with,",
     img: "/images/insights/img-1.jpg",
     time : "15 min read",
-    url :"#"
+    url :"/insights/article-one"
   },
   {
     title : "Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine",
     description : "Delve into the numerous benefits of maintaining a consistent prayer routine. From mental well-being to spiritual growth, see how regular prayer can positively impact various aspects of your life.",
     img: "/images/insights/img-2.jpg",
     time : "15 min read",
-    url :"#",
+    url :"/insights/article-two",
   },
   {
     title : "The benefits of consistent prayer",
     description : "Learn about the mental and spiritual benefits of maintaining a consistent prayer routine.",
     img: "/images/insights/img-3.jpg",
     time : "8 min read",
-    url :"#",
+    url :"/insights/article-three",
   },
 ]
