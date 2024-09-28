@@ -7,7 +7,7 @@ const ArticleOnePage = () => {
       <h1 className="text-center text-[32px] lg:text-[40px] ff-2">Blog</h1>
       <section className="pt-8 text-primary">
         <div className="mx-auto px-5 max-w-[1014px]">
-          <Link href={"./"} className="inline-flex gap-3 items-center text-xl">
+          <Link href={"./"} className="inline-flex gap-3 items-center text-lg lg:text-xl">
           <Image
           src={"/images/arrow-right.svg"}
           width={12}
@@ -40,7 +40,7 @@ const ArticleOnePage = () => {
           <div className="flex justify-between gap-14">
             <div className="flex-1">
               <Link href={"/insights/article-one"} className="flex flex-col ">
-                <div className="flex lg:flex-col lg:mb-3">
+                <div className="flex lg:flex-col lg:mb-3 items-center lg:items-start gap-3 lg:gap-0">
                   <span className="size-10 rounded-full flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
                     <Image
                     src={"/images/arrow-right.svg"}
@@ -50,14 +50,14 @@ const ArticleOnePage = () => {
                     className="scale-x-[-1]"
                     />
                   </span>
-                  <span className="text-xl font-medium lg:mt-3">Previous Blog</span>
+                  <span className="lg:text-xl font-medium lg:mt-3">Previous Blog</span>
                 </div>
                 <h4 className="hidden lg:[display:-webkit-box]  line-clamp-2 text-2xl font-medium leading-[1.5]">Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine</h4>
               </Link>
             </div>
             <div className="flex-1 ">
                 <Link href={"/insights/article-three"} className="flex flex-col items-end text-right">
-                  <div className="flex lg:flex-col lg:items-end lg:mb-3">
+                  <div className="flex flex-row-reverse lg:flex-col lg:items-end items-center gap-3 lg:gap-0 lg:mb-3">
                     <span className="size-10 rounded-full flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
                       <Image
                       src={"/images/arrow-right.svg"}
@@ -66,9 +66,9 @@ const ArticleOnePage = () => {
                       alt="arow"
                       />
                     </span>
-                    <span className="text-xl font-medium lg:mt-3">Next Blog</span>
+                    <span className="lg:text-xl font-medium lg:mt-3">Next Blog</span>
                   </div>
-                  <h4 className="hidden lg:[display:-webkit-box] line-clamp-2 text-2xl font-medium leading-[1.5]">Why is the post Namaaz meditation very important?</h4>
+                  <h4 className="hidden lg:[display:-webkit-box] line-clamp-2 text-2xl font-medium leading-[1.2]">Why is the post Namaaz meditation very important?</h4>
               </Link>
             </div>
           </div>

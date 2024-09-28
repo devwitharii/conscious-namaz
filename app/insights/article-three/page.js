@@ -7,7 +7,7 @@ const ArticleOnePage = () => {
       <h1 className="text-center text-[32px] lg:text-[40px] ff-2">Blog</h1>
       <section className="pt-8 text-primary">
         <div className="mx-auto px-5 max-w-[1014px]">
-          <Link href={"./"} className="inline-flex gap-3 items-center text-xl">
+          <Link href={"./"} className="inline-flex gap-3 items-center text-lg lg:text-xl">
           <Image
           src={"/images/arrow-right.svg"}
           width={12}
@@ -36,7 +36,7 @@ const ArticleOnePage = () => {
           <div className="flex justify-between gap-14">
             <div className="flex-1">
               <Link href={"/insights/article-two"} className="flex flex-col ">
-                <div className="flex lg:flex-col lg:mb-3">
+                <div className="flex lg:flex-col lg:mb-3 items-center lg:items-start gap-3 lg:gap-0">
                   <span className="size-10 rounded-full flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
                     <Image
                     src={"/images/arrow-right.svg"}
@@ -46,9 +46,9 @@ const ArticleOnePage = () => {
                     className="scale-x-[-1]"
                     />
                   </span>
-                  <span className="text-xl font-medium lg:mt-3">Previous Blog</span>
+                  <span className="lg:text-xl font-medium lg:mt-3">Previous Blog</span>
                 </div>
-                <h4 className="hidden lg:[display:-webkit-box]  line-clamp-2 text-2xl font-medium leading-[1.5]">The power of conscious Namaaz to heal the mind, body and spirit and power of...</h4>
+                <h4 className="hidden lg:[display:-webkit-box]  line-clamp-2 text-2xl font-medium leading-[1.2]">The power of conscious Namaaz to heal the mind, body and spirit and power of...</h4>
               </Link>
             </div>
             <div className="flex-1 ">

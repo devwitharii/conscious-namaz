@@ -11,8 +11,8 @@ const HomeBanner = () => {
         </figure>
         <Container className="relative">
           <div className="py-7 xl:py-14 xl:px-14 rounded-[20px]  text-center text-primary lg:text-white bg-gradient-to-r from-[#ffffff1a] to-transparent">
-            <h1 className="h1 mb-5 lg:mb-10 leading-[1.1]">Discover the power of conscious praying and witness how your life changes</h1>
-            <Button className={"xl:min-w-[250px]"}>lear more</Button>
+            <h1 className="h1 mb-5 lg:mb-10 leading-[1.1] capitalize">Discover the power of conscious praying and witness how your life changes</h1>
+            <Button className={"xl:min-w-[250px] px-10"}>lear more</Button>
           </div>
         </Container>
     </section>

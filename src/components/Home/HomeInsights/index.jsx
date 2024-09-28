@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BlogCard from "../../BlogCard";
+import { Navigation } from "swiper";
 
 const HomeInsights = () => {
   return(
@@ -22,36 +23,63 @@ const HomeInsights = () => {
           />
           </Link>
         </div>
-        <Swiper
-        slidesPerView={1.2}
-        spaceBetween={20}
-        breakpoints={{
-          768 :{
-            spaceBetween : 30,
-            slidesPerView : 2.5
-          },
-          992 :{
-            spaceBetween : 30,
-            slidesPerView : 3
-          },
-        }}
-        >
-          {
-            data?.map((insight, index)=>(
-              <SwiperSlide
-              className="!h-auto"
-              key={index}>
-                <BlogCard
-                title={insight.title}
-                description={insight.description}
-                img={insight.img}
-                time={insight.time}
-                url={insight.url}
-                />
-              </SwiperSlide>
-            ))
-          }
-        </Swiper>
+        <div className="relative">
+          <Swiper
+          slidesPerView={1.2}
+          spaceBetween={20}
+          modules={[Navigation]}
+          navigation= {{
+            prevEl: ".nav-prev",
+            nextEl: ".nav-next",
+            disabledClass:"opacity-0"
+          }}
+          breakpoints={{
+            768 :{
+              spaceBetween : 30,
+              slidesPerView : 2.5
+            },
+            992 :{
+              spaceBetween : 30,
+              slidesPerView : 3
+            },
+          }}
+          >
+            {
+              data?.map((insight, index)=>(
+                <SwiperSlide
+                className="!h-auto"
+                key={index}>
+                  <BlogCard
+                  title={insight.title}
+                  description={insight.description}
+                  img={insight.img}
+                  time={insight.time}
+                  url={insight.url}
+                  />
+                </SwiperSlide>
+              ))
+            }
+          </Swiper>
+          <span className="nav-prev size-10 absolute top-[20%] z-[3] cursor-pointer hover:opacity-75 transition-opacity left-0 -translate-x-1/2 rounded-full hidden lg:flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
+            <Image
+            src={"/images/arrow-right.svg"}
+            width={20}
+            height={15}
+            alt="arow"
+            className="scale-x-[-1]"
+            />
+          </span>
+                    
+          <span className="nav-next size-10 absolute top-[20%] z-[3] cursor-pointer hover:opacity-75 transition-opacity right-0 translate-x-1/2 rounded-full hidden lg:flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
+            <Image
+            src={"/images/arrow-right.svg"}
+            width={20}
+            height={15}
+            alt="arow"
+            />
+          </span>
+
+        </div>
       </Container>
     </section>
   )
@@ -82,5 +110,5 @@ const data = [
     img: "/images/insights/img-3.jpg",
     time : "8 min read",
     url :"/insights/article-three",
-  },
+  }
 ]
