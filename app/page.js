@@ -14,7 +14,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      {/* <HomeBanner /> */}
+      <HomeBanner />
       <SubscriptionPlan/>
       <HomeReviews/>
       <HomeInsights />
