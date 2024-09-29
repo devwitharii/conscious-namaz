@@ -33,7 +33,7 @@ const Header = () => {
   
 
   return (
-    <header className="fixed top-0 left-0 w-screen z-10 py-3 xl:py-5 bg-white border-b border-[#747B09]">
+    <header className="fixed top-0 left-0 w-screen z-10 py-3 xl:py-5 bg-white border-b border-[#747B09] fade-in">
       <Container className="flex items-center">
         <Link href={"./"} className={`flex max-w-[135px] xl:max-w-[200px]`}>
           <Image
@@ -78,7 +78,7 @@ const Header = () => {
         )}
         {
           isMobile && (
-            <div className={`fixed left-0 w-full top-[--header-height] px-5 py-5 h-[calc(100vh-var(--header-height))] bg-white flex flex-col transition-all duration-200 ${hasShowMenu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
+            <div className={`fixed left-0 w-full top-[67px] px-5 py-5 h-[calc(100dvh-var(--header-height))] bg-white flex flex-col transition-all duration-200 ${hasShowMenu ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
               <ul className="space-y-3">
                 {HEADER_DATA?.links?.map((item, index) => (
                   <li key={index}>

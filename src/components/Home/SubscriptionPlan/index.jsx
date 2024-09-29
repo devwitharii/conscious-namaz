@@ -4,7 +4,7 @@ import Button from "../../Button"
 
 const SubscriptionPlan = () => {
   return (
-    <section className="py-16 lg:py-[100px] bg-primary text-white relative">
+    <section className="py-16 lg:py-[100px] bg-primary text-white relative lg:shadow-section-shadow lg:bg-vectorImg lg:bg-no-repeat lg:bg-left-top lg:z-[2] lg:relative lg:before:absolute lg:before:w-full lg:before:h-full lg:before:top-0 lg:before:right-0 lg:before:bg-vectorImage lg:before:z-[-1] lg:before:bg-no-repeat lg:before:bg-right-bottom">
         <Container>
             <div className="text-center max-w-[700px] mx-auto mb-7 lg:mb-16">
                 <h2 className="h2 mb-2">Subscription plan</h2>
@@ -15,7 +15,7 @@ const SubscriptionPlan = () => {
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
-                            src={"/images/home-sub-img-1.jpg"}
+                            src={"/images/home-sub-img-1.webp"}
                             alt=""
                             fill
                             className="object-cover"
@@ -36,7 +36,7 @@ const SubscriptionPlan = () => {
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
-                            src={"/images/home-sub-img-2.jpg"}
+                            src={"/images/home-sub-img-2.webp"}
                             alt=""
                             fill
                             className="object-cover"
@@ -57,7 +57,7 @@ const SubscriptionPlan = () => {
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
-                            src={"/images/home-sub-img-3.jpg"}
+                            src={"/images/home-sub-img-3.webp"}
                             alt=""
                             fill
                             className="object-cover"
@@ -78,7 +78,7 @@ const SubscriptionPlan = () => {
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
-                            src={"/images/home-sub-img-4.jpg"}
+                            src={"/images/home-sub-img-4.webp"}
                             alt=""
                             fill
                             className="object-cover"

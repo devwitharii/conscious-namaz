@@ -8,6 +8,7 @@
   --background: #ffffff;
   --foreground: #171717;
   --primary : #334839;
+  --primary-hover : #273526;
 }
 
 body {
@@ -98,4 +99,20 @@ body {
   .h2{
     font-size: 52px;
   }
+}
+
+@keyframes fadeInSmooth {
+  0% {
+    opacity: 0;
+    transform: translateY(-2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInSmooth 0.8s ease-in-out;
+  animation-fill-mode: forwards;
 }

@@ -3,6 +3,11 @@ import InsightListing from "@/src/components/InsightListing";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Insights - Conscious Namaz",
+  description: "Learn more about our insights.",
+};
+
 const InsightsPage = () => {
   return (
     <>

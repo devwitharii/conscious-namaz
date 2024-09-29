@@ -7,6 +7,11 @@ import Container from "@/src/components/Container";
 import Image from "next/image";
 import React from "react";
 
+export const metadata = {
+  title: "About Us - Conscious Namaz",
+  description: "Learn more about us on this page.",
+};
+
 const AboutPage = () => {
   return (
     <main className="pb-10 lg:pb-20">
@@ -27,7 +32,7 @@ const AboutPage = () => {
         <div className="px-2 w-full lg:w-1/2 lg:px-7 mt-5">
           <figure className="relative overflow-hidden pb-[56.57%] ">
             <Image
-            src={"/images/about-img-1.jpg"}
+            src={"/images/about-img-1.webp"}
             alt="about images"
             fill
             className="object-cover"

@@ -7,7 +7,7 @@ const AboutWelcome = () => {
     <section>
         <figure className='relative overflow-hidden pb-[83%] sm:pb-[28.56%] '>
             <Image
-            src={"/images/about-banner.jpg"}
+            src={"/images/about-banner.webp"}
             fill
             alt='about banner'
             className='object-cover'

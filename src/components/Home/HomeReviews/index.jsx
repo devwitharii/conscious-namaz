@@ -51,7 +51,7 @@ const HomeReviews = () => {
                 <Swiper
                 ref={swiperRef}
                 centeredSlides
-                loop={true}
+                loop={false}
                 spaceBetween={20}
                 navigation= {{
                     prevEl: ".review-prev",
@@ -115,7 +115,7 @@ const HomeReviews = () => {
                                 <p className="text-primary lg:text-black text-xl leading-6 mb-6">
                                     {item.content}
                                 </p>
-                                    <p className="text-primary lg:text-black text-xl leading-6">{item.name}</p>
+                                    <p className="text-primary lg:text-black text-xl leading-6 italic">{item.name}</p>
                             </div>
                         </SwiperSlide>
                     ))
@@ -152,39 +152,33 @@ export default HomeReviews
 
 const data = [
     {
-        img : "/images/reviews/img-4.jpg",
+        img : "/images/reviews/img-1.webp",
         star : 5,
         name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
+        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
     },
     {
-        img : "/images/reviews/img-2.png",
+        img : "/images/reviews/img-2.webp",
         star : 5,
-        name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
+        name : "- Nusrath khan- Engineer",
+        content : "I took this course, just because I am Muslim and thought I will gain some sawaab by attending it. But I was wrong. This course made me see Islam in a way no one could ever help me see."
     },
     {
-        img : "/images/reviews/img-4.jpg",
+        img : "/images/reviews/img-3.webp",
         star : 5,
-        name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
+        name : "- Safiuddin- Student",
+        content : "Assalamualaikum everyone. Being Hafez e Qur'an my self, i was still unaware of the real beauty of namaz and Islam. I am forever grateful for this program. Alhamdulillah!"
     },
     {
-        img : "/images/reviews/img-3.png",
+        img : "/images/reviews/img-4.webp",
         star : 5,
-        name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
+        name : "- Zaid Nasrullah- Architect",
+        content : "A colleague suggested me to attend one session of the tahajjud program because I was praying restlessly to Allah to make one very important thing in my life to fall in place for months. The approach the tahajjud namaz program had towards dua and manifestations blew my mind. In just three days of praying and offering dwa in the conscious way flipped everything in my life like big blessing."
     },
     {
-        img : "/images/reviews/img-2.png",
+        img : "/images/reviews/img-5.webp",
         star : 5,
-        name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
-    },
-    {
-        img : "/images/reviews/img-4.jpg",
-        star : 5,
-        name : "- Zahid pathan - Businessman",
-        content : "Firstly, I was thrilled by the knowledge I got to learn from the course, secondly it made me realise the right way to pray and ask Allah for my wishes and dwas. It's impossible to believe the success i achieved in my life after the program."
+        name : "- Sumayya k - House wife",
+        content : "Just by praying namaaz the right way, made a world of difference in my life. It made me understand the real purpose of tahajjud  namaz and how it makes all dwa's that I ask Allah at night come to me in real life."
     },
 ]

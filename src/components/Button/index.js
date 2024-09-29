@@ -10,9 +10,9 @@ const Button = ({
 
   const variantClass = {
     default: "py-3 px-4 rounded-[3px] uppercase transition-colors",
-    primary: "bg-primary hover:bg-primary-hover text-white",
-    light: "bg-white hover:bg-gray-200 text-primary",
-    "outline-primary" :"border border-primary text-primary bg-white hover:bg-primary hover:text-white"
+    primary: "bg-primary hover:bg-primaryhover text-white",
+    light: "bg-white hover:bg-[#f6f6f6] text-primary",
+    "outline-primary" :"border border-primary text-primary bg-white hover:bg-[#f6f6f6]"
   };
 
   const btnClass = `${variantClass.default} ${variantClass[varient]} ${className}`;
