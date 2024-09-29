@@ -40,21 +40,31 @@ import Container from "../../Container";
 
 const HomeBanner = () => {
   // Retrieve the banner state from localStorage, default to true if not present
-  const [isBannerVisible, setIsBannerVisible] = useState(() => {
-    return localStorage.getItem("bannerClosed") !== "true";
-  });
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
 
-    // Reset the bannerClosed state on page reload
-    useEffect(() => {
-      // Reset the local storage to show the banner again on page reload
+
+  useEffect(() => {
+    // Check localStorage only in the browser
+    const bannerClosed = localStorage.getItem("bannerClosed");
+    if (bannerClosed === "true") {
+      setIsBannerVisible(false);
+    }
+
+    // Optional: Reset the bannerClosed state on page reload
+    const handleBeforeUnload = () => {
       localStorage.removeItem("bannerClosed");
-    }, []);
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, []);
 
   // Function to handle closing the banner and storing the state in localStorage
   const handleCloseBanner = () => {
     setIsBannerVisible(false);
     localStorage.setItem("bannerClosed", "true");
-    console.log("handleCloseBanner",clicked);
     
   };
 
