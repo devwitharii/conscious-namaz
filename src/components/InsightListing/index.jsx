@@ -1,3 +1,4 @@
+import Animate from "../Animate"
 import BlogCard from "../BlogCard"
 import Container from "../Container"
 
@@ -5,12 +6,12 @@ const InsightListing = () => {
   return (
     <section className="py-10 lg:py-14">
         <Container>
-            <h1 className="h2 mb-2 text-primary text-center">Namaaz Insights</h1>
-            <p className="lg:text-xl leading-[1.5] text-center text-primary mb-12 lg:mb-14">Unlock the full potential of your spiritual journey with our Conscious Namaaz Subscription Plan.</p>
+            <Animate as="h1" className="h2 mb-2 text-primary text-center">Namaaz Insights</Animate>
+            <Animate as="p" className="lg:text-xl leading-[1.5] text-center text-primary mb-12 lg:mb-14">Unlock the full potential of your spiritual journey with our Conscious Namaaz Subscription Plan.</Animate>
             <div className="-mx-2 lg:-mx-4 flex flex-wrap -my-5">
                 {
                     data?.map((item, index)=>(
-                        <div className="px-2 w-full lg:w-1/3 lg:px-4 mt-5" key={index}>
+                        <Animate className="px-2 w-full lg:w-1/3 lg:px-4 mt-5" key={index}>
                             <BlogCard
                             title={item.title}
                             description={item.description}
@@ -18,7 +19,7 @@ const InsightListing = () => {
                             time={item.time}
                             url={item.url}
                             />
-                        </div>
+                        </Animate>
                     ))
                 }
             </div>

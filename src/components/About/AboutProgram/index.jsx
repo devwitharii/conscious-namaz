@@ -2,15 +2,19 @@
 import React, { useState } from 'react'
 import Container from '../../Container'
 import ProgramOne from './programOne';
+import ProgramTwo from './programTwo';
+import ProgramFour from './programFour';
+import ProgramThree from './programThree';
+import Animate from '../../Animate';
 
 const AboutProgram = () => {
     const [activeTabIndex, setActiveTabIndex] = useState(0);
   return (
     <section className='bg-[#F6F6F6] pt-5 lg:pt-14 pb-10 text-primary'>
         <Container>
-            <h2 className='h2 ff-2 text-center mb-10 lg:mb-14'>Programs</h2>
+            <Animate as='h2' className='h2 ff-2 text-center mb-10 lg:mb-14'>Programs</Animate>
             <div className='xl:px-14'>
-                <div className="flex gap-2.5 sm:gap-5 lg:gap-10 overflow-auto">
+                <Animate className="flex gap-2.5 sm:gap-5 lg:gap-10 overflow-auto">
                     {
                         programs.map((program, index)=>(
                             <div 
@@ -22,13 +26,15 @@ const AboutProgram = () => {
                             </div>
                         ))
                     }
-                </div>
+                </Animate>
             </div>
             <div className='max-w-[1180px] mx-auto mt-10 lg:mt-20 xl:mt-24'>
                     {
-                        activeTabIndex === 0 &&(
-                            <ProgramOne/> 
-                        )
+                        activeTabIndex === 0 ? <ProgramOne/> : 
+                        activeTabIndex === 1 ? <ProgramTwo/> : 
+                        activeTabIndex === 2 ? <ProgramThree/> :
+                        activeTabIndex === 3 ? <ProgramFour/> :""
+                        
                     }
             </div>
         </Container>

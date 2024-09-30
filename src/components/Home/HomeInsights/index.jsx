@@ -5,12 +5,13 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import BlogCard from "../../BlogCard";
 import { Navigation } from "swiper";
+import Animate from "../../Animate";
 
 const HomeInsights = () => {
   return(
     <section className="py-10">
       <Container>
-        <div className="mb-10 lg:mb-14 text-center">
+        <Animate className="mb-10 lg:mb-14 text-center">
           <h2 className="h2 mb-2 text-primary">Namaaz Insights</h2>
           <p className="mb-2 text-xl leading-6 text-primary">Explore articles and reflections to enhance your prayer practice and deepen your spiritual connection.</p>
           <Link href={"insights"} className="inline-flex gap-1 items-start leading-none">
@@ -22,8 +23,8 @@ const HomeInsights = () => {
           alt="arrow-top"
           />
           </Link>
-        </div>
-        <div className="relative">
+        </Animate>
+        <Animate className="relative">
           <Swiper
           slidesPerView={1.2}
           spaceBetween={20}
@@ -79,7 +80,7 @@ const HomeInsights = () => {
             />
           </span>
 
-        </div>
+        </Animate>
       </Container>
     </section>
   )

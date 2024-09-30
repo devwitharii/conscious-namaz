@@ -1,17 +1,18 @@
 import Image from "next/image"
 import Container from "../../Container"
 import Button from "../../Button"
+import Animate from "../../Animate"
 
 const SubscriptionPlan = () => {
   return (
     <section className="py-16 lg:py-[100px] bg-primary text-white relative lg:shadow-section-shadow lg:bg-vectorImg lg:bg-no-repeat lg:bg-left-top lg:z-[2] lg:relative lg:before:absolute lg:before:w-full lg:before:h-full lg:before:top-0 lg:before:right-0 lg:before:bg-vectorImage lg:before:z-[-1] lg:before:bg-no-repeat lg:before:bg-right-bottom">
         <Container>
-            <div className="text-center max-w-[700px] mx-auto mb-7 lg:mb-16">
+            <Animate className="text-center max-w-[700px] mx-auto mb-7 lg:mb-16">
                 <h2 className="h2 mb-2">Subscription plan</h2>
                 <p className="lg:text-xl leading-1.5">Unlock the full potential of your spiritual journey with our Conscious Namaz Subscription Plan.</p>
-            </div>
+            </Animate>
             <div className="flex flex-wrap -mx-4 lg:-mx-6 gap-y-5">
-                <div className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
+                <Animate className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
@@ -31,8 +32,8 @@ const SubscriptionPlan = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
+                </Animate>
+                <Animate className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
@@ -52,8 +53,8 @@ const SubscriptionPlan = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
+                </Animate>
+                <Animate className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
@@ -73,8 +74,8 @@ const SubscriptionPlan = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
+                </Animate>
+                <Animate className="w-full md:w-1/2 xl:w-1/4 px-4 lg:px-6">
                     <div className="flex h-full flex-col">
                         <figure className="relative overflow-hidden pb-[62.85%] rounded-t-[6px]">
                             <Image 
@@ -94,7 +95,7 @@ const SubscriptionPlan = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Animate>
             </div>
         </Container>
     </section>

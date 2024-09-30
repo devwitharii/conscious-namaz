@@ -1,14 +1,15 @@
 import Image from 'next/image'
 import Button from '../../Button'
 import ProgramContainer from '../ProgramContainer'
+import Animate from '../../Animate'
 const ProgramOne = () => {
   return (
     <>
         <div className='-mx-2 lg:-mx-7 flex flex-wrap -mt-14 lg:items-center'>
-            <div className='px-2 w-full lg:w-2/3 lg:px-7 mt-14'>
+            <Animate className='px-2 w-full lg:w-2/3 lg:px-7 mt-14'>
                 <h3 className='text-[32px] ff-2 mb-5 lg:mb-8 leading-[1.2]'>Three-day Tahajjud Namaaz Program</h3>
                 <p className='lg:text-lg leading-[1.5]'>We are all aware of the miracles TAHAJJUD prayer can offer, but sadly we have underestimated its power to an extent we almost neglected this moon-light prayer. The soul purpose of Conscious Namaaz is to call every Muslim and also non-Muslim to reap maximum benefits of this sacred time and conscious prayer.</p>
-            </div>
+            </Animate>
             <div className='px-2 w-full lg:w-1/3 lg:px-7 mt-14'>
                 <div className='flex flex-col rounded-md overflow-hidden shadow-xl'>
                     <figure className='relative overflow-hidden pb-[69.98%]'>
@@ -27,7 +28,7 @@ const ProgramOne = () => {
             </div>
         </div>
         <ProgramContainer>
-            <h3>What is the Tahajjud Namaaz?</h3>
+            <h3>JOIN THE THREE DAY CONSCIOUS NAMAAZ TAHAJJUD PROGRAM AND MANIFEST ANYTHING YOU DESIRE LIKE MAGIC (99rs)</h3>
             <p>As Muslims we have five prayers that are Farz(compulsory) and the sixth prayer is optional but also the most virtues Nafl prayer. This prayer is called the Tahajjud Namaaz. Since this night time prayer is not obligatory, very few of us withdraw the real benefit from it (i.e. the power of manifesting anything pure).</p>
             <p>Be it nurturing your spirit by experiencing a deeper connection with Allah, or be it healing your physical and mental body, or manifesting your perfect life, everything is graciously available if you "consciously surrender" to the real power of Tahajjud Namaaz.</p>
         </ProgramContainer>

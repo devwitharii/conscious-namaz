@@ -1,12 +1,13 @@
 import Accordion from "../../Accordion"
+import Animate from "../../Animate"
 import Style from "./HomeFaq.module.css"
 
 const HomeFaq = () => {
   return (
     <section className={`py-10 pb-14 lg:pb-28 ${Style.root}`} id="faq">
       <div className="px-5 mx-auto max-w-[1086px]">
-        <h2 className="mb-10 lg:mb-14 h2 text-center">Frequently asked Questions</h2>
-        <div className="space-y-2">
+        <Animate as="h2" className="mb-10 lg:mb-14 h2 text-center">Frequently asked Questions</Animate>
+        <Animate className="space-y-2">
           <Accordion
             title="What is your return policy?"
             isOpen = {true}
@@ -55,7 +56,7 @@ const HomeFaq = () => {
           >
             As the contemporary way of subconsciously reciting and offering Namaaz barely touches the spirit, being extremely present while reciting every verse and absorbing the vibration of every Aayah makes a world of a difference in our mind body and spirit. Whatever “halaal” you desire shall be brought into your world by the powerful laws of nature Allah has created, only if you surrender your mind to emptiness and let Allah shower upon you wealth, health, prosperity and happiness.  
           </Accordion>
-        </div>
+        </Animate>
       </div>
     </section>
   )

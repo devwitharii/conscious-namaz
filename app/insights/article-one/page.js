@@ -1,12 +1,13 @@
+import Animate from "@/src/components/Animate";
 import Image from "next/image";
 import Link from "next/link";
 
 const ArticleOnePage = () => {
   return(
     <main className="py-7 lg:pb-20">
-      <h1 className="text-center text-[32px] lg:text-[40px] ff-2">Blog</h1>
+      <Animate as="h1" className="text-center text-[32px] lg:text-[40px] ff-2">Blog</Animate>
       <section className="pt-8 text-primary">
-        <div className="mx-auto px-5 max-w-[1014px]">
+        <Animate className="mx-auto px-5 max-w-[1014px]">
           <Link href={"./"} className="inline-flex gap-3 items-center text-lg lg:text-xl">
           <Image
           src={"/images/arrow-right.svg"}
@@ -17,16 +18,16 @@ const ArticleOnePage = () => {
           />
           Back
           </Link>
-          <figure className="relative overflow-hidden pb-[56.50%] rounded-[3px] my-5 lg:mb-14">
+          <Animate as="figure" className="relative overflow-hidden pb-[56.50%] rounded-[3px] my-5 lg:mb-14">
               <Image
               src={"/images/insights/img-lg-1.jpg"}
               fill
               alt="img-1"
               className="object-cover"
               />
-          </figure>
-          <h2 className="text-[32px] lg:text-[40px] leading-[1.2] mb-5 lg:mb-8 ff-2">Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine</h2>
-          <div className="admin-content-area">
+          </Animate>
+          <Animate as="h2" className="text-[32px] lg:text-[40px] leading-[1.2] mb-5 lg:mb-8 ff-2">Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine</Animate>
+          <Animate className="admin-content-area">
             <p>
             The human mind runs on two modes, one is conscious and the other is subconscious. For an average human being, 95% of the time during their state of wakefulness, the subconscious mind operates, and barely 5% the conscious mind comes to play. To understand the conscious mind, we need to first understand the subconscious mind a little deeper. Let’s look into the activities that the subconscious mind operates with,
             </p>
@@ -41,10 +42,10 @@ const ArticleOnePage = () => {
             <p>Now applying the same understanding to praying Namaaz, we understand that when most people prepare for offering a Namaaz, they simply walk into a masjid with a mind that is still occupied with mundane tasks and rush to offer Wuduh. They simply sit with their hands under running water thinking how bad their day was and the subconscious mind does the ritual of washing the hands, ears, head, face, arms and feet just without one even noticing. Wuduh itself is a very important part of the Namaaz, your Namaaz technically starts at the point you start offering Wuduh. When one is offering Wuduh, one should empty their mind and become conscious of the water cleansing the face, hands and feet, while reciting the Wuduh Dwa being fully conscious. This way you are first cleansing every drop of water with the vibration of the powerful Dwa and then letting that water absorb in your skin and body. Once you are done offering Wuduh you should keep a conscious effort to keep your mind empty and proceed for offering the Namaaz.</p>
             <p>Now when you stand to begin with offering Namaaz with an empty mind, you will have the capability to surrender your focus on every verse that is recited by you or the one hosting the prayer. If you have your mind still occupied by thoughts of every thing else but Namaaz, every sacred and powerful vibration of the versus from the holy Quran will just reach your ear but not your mind and spirit, while the main purpose of the Namaaz ritual is to cleanse your mind, body and spirit and raise your vibrations to create space for receiving all the blessings from Allah that you desire.</p>
             <p>Most people think once the Namaaz is finished the ritual is completed, but it is not true. The Namaaz ritual is supposed to be followed by a closed eye meditation while being seated, where one has to recite various powerful Dwa’s and Surah’s and recite Alhamdulillah, Allahu Akbar and Subhan Allah for 33 times each, in a very specific way, again “while keeping” the mind empty from any worldly business (to reap maximum benefit).</p>
-          </div>
+          </Animate>
           <div className="border-b border-black my-5 lg:my-14"></div>
           
-          <div className="flex justify-between gap-14">
+          <Animate className="flex justify-between gap-14">
             <div className="flex-1">
               
             </div>
@@ -64,8 +65,8 @@ const ArticleOnePage = () => {
                   <h4 className="hidden lg:[display:-webkit-box] line-clamp-2 text-2xl font-medium leading-[1.2]">The power of conscious Namaaz to heal the mind, body and spirit and power of...</h4>
               </Link>
             </div>
-          </div>
-        </div>
+          </Animate>
+        </Animate>
       </section>
 
     </main>

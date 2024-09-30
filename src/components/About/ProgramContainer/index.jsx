@@ -1,7 +1,8 @@
+import Animate from "../../Animate";
 import Style from "./AboutProgram.module.css";
 const ProgramContainer = ({children}) => {
     return(
-        <div className={`py-10 ${Style.root}`}>{children}</div>
+        <Animate className={`py-10 ${Style.root}`}>{children}</Animate>
     )
 }
 export default ProgramContainer

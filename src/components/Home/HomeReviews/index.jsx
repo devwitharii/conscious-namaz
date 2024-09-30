@@ -5,6 +5,7 @@ import "swiper/css";
 import Sytle from "./HomeReviews.module.css";
 import { useEffect, useRef, useState } from "react";
 import { Navigation } from "swiper";
+import Animate from "../../Animate";
 
 const HomeReviews = () => {
     
@@ -27,7 +28,7 @@ const HomeReviews = () => {
 
   return (
     <section className="p-5 lg:pt-[100px] lg:pb-14">
-        <div className="px-5 xl:max-w-[1090px] mx-auto">
+        <Animate className="px-5 xl:max-w-[1090px] mx-auto">
             <h2 className="h2 mb-10 lg:mb-14 text-center">Reviews</h2>
             <div className="lg:px-20 xl:px-[130px] relative">
                 <span className="review-prev size-10 absolute top-[50%] z-[3] cursor-pointer hover:opacity-75 transition-opacity left-0 -translate-y-1/2 rounded-full hidden lg:flex items-center justify-center border border-gray-200 bg-[#F5F5F5]">
@@ -142,7 +143,7 @@ const HomeReviews = () => {
                 </span>
             </div>
             <div className="border-b border-primary lg:border-black mt-10 lg:mt-14"></div>
-        </div>
+        </Animate>
     </section>
   )
 }

@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Container from '../../Container'
 import Link from 'next/link'
+import Animate from '../../Animate'
 
 const AboutWelcome = () => {
   return (
@@ -29,10 +30,10 @@ const AboutWelcome = () => {
             </div>
         </figure>
         <Container>
-          <div className='text-center py-7 lg:py-12 text-primary'>
+          <Animate className='text-center py-7 lg:py-12 text-primary'>
               <h1 className='h2 ff-2 mb-3 leading-[1.2]'>Welcome to Conscious Namaaz</h1>
               <p className='text-xl tracking-[-0.2px]'>Making Namaaz more Meaningful & Powerful</p>
-          </div>
+          </Animate>
         </Container>
     </section>
   )
