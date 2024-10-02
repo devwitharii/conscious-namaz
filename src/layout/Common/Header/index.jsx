@@ -33,7 +33,7 @@ const Header = () => {
   
 
   return (
-    <header className="fixed top-0 left-0 w-screen z-10 py-3 xl:py-5 bg-white border-b border-[#747B09] fade-in">
+    <header className="fixed top-0 left-0 w-screen z-10 py-3 xl:py-5 bg-white border-b border-[#747B09]">
       <Container className="flex items-center">
         <Link href={"./"} className={`flex max-w-[135px] xl:max-w-[200px]`}>
           <Image

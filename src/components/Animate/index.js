@@ -6,9 +6,9 @@ const Animate = ({ as: Component = 'div', children, ...props }) => {
 
   return (
     <MotionComponent
-        initial={{ opacity: 0, y : 40 }}
+        initial={{ opacity: 0, y : 8 }}
         whileInView={{ opacity: 1, y : 0 }}
-        transition={{ duration: 0.8 }}
+        transition={{ duration: 0.5 }}
         viewport={{ once: true }}
         {...props}
     >

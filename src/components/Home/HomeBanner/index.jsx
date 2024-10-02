@@ -37,6 +37,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import Button from "../../Button";
 import Container from "../../Container";
+import Animate from "../../Animate";
 
 const HomeBanner = () => {
   // Retrieve the banner state from localStorage, default to true if not present
@@ -54,10 +55,10 @@ const HomeBanner = () => {
         <Image src="/images/home-banner.webp" alt="banner images" fill className="object-cover" />
       </figure>
       <Container className="relative">
-        <div className="py-7 lg:py-14 lg:px-14 rounded-[20px] text-center text-primary lg:text-white bg-gradient-to-r from-[#ffffff1a] to-transparent fade-in">
+        <Animate className="py-7 lg:py-14 lg:px-14 rounded-[20px] text-center text-primary lg:text-white bg-gradient-to-r from-[#ffffff1a] to-transparent">
           <h1 className="h1 mb-5 lg:mb-10 leading-[1.1] capitalize">Discover the power of conscious praying and witness how your life changes</h1>
           <Button className={"lg:min-w-[250px] px-10"}>learn more</Button>
-        </div>
+        </Animate>
       </Container>
 
       {/* Conditional rendering of the promotional banner */}
