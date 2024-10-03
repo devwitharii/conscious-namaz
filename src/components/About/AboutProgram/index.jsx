@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import Container from "../../Container";
 import ProgramOne from "./programOne";
 import ProgramTwo from "./programTwo";
@@ -14,6 +14,7 @@ const AboutProgram = () => {
     parseInt(searchParams.get("tab")) ?? 0
   );
   return (
+    <Suspense>
     <section
       className="bg-[#F6F6F6] pt-5 lg:pt-14 pb-10 text-primary"
       id="about-programs"
@@ -54,6 +55,7 @@ const AboutProgram = () => {
         </div>
       </Container>
     </section>
+    </Suspense>
   );
 };
 
