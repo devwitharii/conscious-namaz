@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, Suspense } from "react";
+import React, { useState, Suspense, useEffect } from "react";
 import Container from "../../Container";
 import ProgramOne from "./programOne";
 import ProgramTwo from "./programTwo";
@@ -10,9 +10,12 @@ import { useSearchParams } from "next/navigation";
 
 const AboutProgram = () => {
   const searchParams = useSearchParams();
-  const [activeTabIndex, setActiveTabIndex] = useState(
-    parseInt(searchParams.get("tab")) ?? 0
-  );
+  const [activeTabIndex, setActiveTabIndex] = useState(0);
+
+  useEffect(() => {
+    const tab = parseInt(searchParams.get("tab")) ?? 0;
+    setActiveTabIndex(tab);
+  }, [searchParams]);
   return (
     <section
       className="bg-[#F6F6F6] pt-5 lg:pt-14 pb-10 text-primary"
