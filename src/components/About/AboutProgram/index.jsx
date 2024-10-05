@@ -14,7 +14,6 @@ const AboutProgram = () => {
     parseInt(searchParams.get("tab")) ?? 0
   );
   return (
-    <Suspense>
     <section
       className="bg-[#F6F6F6] pt-5 lg:pt-14 pb-10 text-primary"
       id="about-programs"
@@ -28,9 +27,8 @@ const AboutProgram = () => {
             {programs.map((program, index) => (
               <div
                 key={index}
-                className={`w-[300px] flex-shrink-0 lg:w-[320px] p-5 border border-primary cursor-pointer transition-colors text-center flex justify-center items-center xl:hover:bg-primary xl:hover:text-white ${
-                  activeTabIndex === index ? "bg-primary text-white" : ""
-                }`}
+                className={`w-[300px] flex-shrink-0 lg:w-[320px] p-5 border border-primary cursor-pointer transition-colors text-center flex justify-center items-center xl:hover:bg-primary xl:hover:text-white ${activeTabIndex === index ? "bg-primary text-white" : ""
+                  }`}
                 onClick={() => setActiveTabIndex(index)}
               >
                 <span className="lg:text-lg uppercase font-semibold">
@@ -41,21 +39,22 @@ const AboutProgram = () => {
           </Animate>
         </div>
         <div className="max-w-[1180px] mx-auto mt-10 lg:mt-20 xl:mt-24">
-          {activeTabIndex === 0 ? (
-            <ProgramOne />
-          ) : activeTabIndex === 1 ? (
-            <ProgramTwo />
-          ) : activeTabIndex === 2 ? (
-            <ProgramThree />
-          ) : activeTabIndex === 3 ? (
-            <ProgramFour />
-          ) : (
-            ""
-          )}
+          <Suspense fallback={<div>Loading...</div>}>
+            {activeTabIndex === 0 ? (
+              <ProgramOne />
+            ) : activeTabIndex === 1 ? (
+              <ProgramTwo />
+            ) : activeTabIndex === 2 ? (
+              <ProgramThree />
+            ) : activeTabIndex === 3 ? (
+              <ProgramFour />
+            ) : (
+              ""
+            )}
+          </Suspense>
         </div>
       </Container>
     </section>
-    </Suspense>
   );
 };
 
