@@ -46,13 +46,13 @@ const HomeBanner = () => {
   // Function to handle closing the banner and storing the state in localStorage
   const handleCloseBanner = () => {
     setIsBannerVisible(false);
-    
+
   };
 
   return (
     <section className="relative lg:h-[calc(100vh-var(--header-height))] lg:min-h-[500px] lg:flex lg:items-center">
       <figure className="relative pb-[58%] lg:pb-0 h-auto lg:absolute top-0 left-0 w-full lg:h-full">
-        <Image src="/images/home-banner.webp" alt="banner images" fill className="object-cover" />
+        <Image src="/images/home-banner.webp" alt="banner images" fill className="object-cover" priority={true} />
       </figure>
       <Container className="relative">
         <Animate className="py-7 lg:py-14 lg:px-14 rounded-[20px] text-center text-primary lg:text-white bg-gradient-to-r from-[#ffffff1a] to-transparent">
