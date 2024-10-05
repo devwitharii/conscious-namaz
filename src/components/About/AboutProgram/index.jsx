@@ -16,7 +16,7 @@ const AboutProgram = () => {
     // Ensure this logic runs only on the client side
     if (typeof window !== 'undefined') {
       const tab = parseInt(searchParams.get("tab")) ?? 0;
-      setActiveTabIndex(tab);
+      setActiveTabIndex(!isNaN(tab) ? tab : 0);
     }
   }, [searchParams]);
 

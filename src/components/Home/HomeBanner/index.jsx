@@ -63,7 +63,7 @@ const HomeBanner = () => {
 
       {/* Conditional rendering of the promotional banner */}
       {isBannerVisible && (
-        <div className="absolute w-full top-full lg:bottom-0 left-0 z-[9]">
+        <div className="absolute w-full h-[96px] top-full lg:bottom-0 lg:top-[calc(100%-96px)] left-0 z-[9]">
           <div className="bg-primary text-white py-5 px-5">
             <div className="max-w-[1306px] mx-auto w-full relative">
               <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between">

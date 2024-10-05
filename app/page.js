@@ -4,6 +4,7 @@ import HomeReviews from "@/src/components/Home/HomeReviews";
 import HomeInsights from "@/src/components/Home/HomeInsights";
 import SubscriptionPlan from "@/src/components/Home/SubscriptionPlan";
 import HomeFaq from "@/src/components/Home/HomeFaq";
+import HomeVideos from "@/src/components/Home/HomeVideos";
 
 export const metadata = {
   title: "Home - Conscious Namaz",
@@ -15,10 +16,11 @@ export default function Home() {
   return (
     <>
       <HomeBanner />
-      <SubscriptionPlan/>
-      <HomeReviews/>
+      <HomeVideos />
+      <SubscriptionPlan />
+      <HomeReviews />
       <HomeInsights />
-      <HomeFaq/>
+      <HomeFaq />
     </>
   );
 }

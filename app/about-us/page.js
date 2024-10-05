@@ -30,7 +30,7 @@ const AboutPage = () => {
             <h2 className="ff-2 mb-5 lg:mb-8 text-[32px] lg:text-[40px] leading-[1.2]">Discover the power of conscious praying and witness how your life changes for the best.</h2>
             <p className="lg:text-lg leading-[1.5]">Allah has constructed the universe with a sacred mathematical precision of laws, and the universe functions in accordance to these laws. The ultimate test for a human being is to realise and make the best of all these laws of divine nature and carve a virtues life out of it. Whoever succeeds in doing so, is not far from experiencing Paradise here and after.</p>
           </Animate>
-          <div className="px-2 w-full lg:w-1/2 lg:px-7 mt-5">
+          <Animate className="px-2 w-full lg:w-1/2 lg:px-7 mt-5">
             <figure className="relative overflow-hidden pb-[56.57%] ">
               <Image
                 src={"/images/about-img-1.webp"}
@@ -39,7 +39,7 @@ const AboutPage = () => {
                 className="object-cover"
               />
             </figure>
-          </div>
+          </Animate>
         </div>
       </Container>
 
