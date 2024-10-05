@@ -13,9 +13,13 @@ const AboutProgram = () => {
   const [activeTabIndex, setActiveTabIndex] = useState(0);
 
   useEffect(() => {
-    const tab = parseInt(searchParams.get("tab")) ?? 0;
-    setActiveTabIndex(tab);
+    // Ensure this logic runs only on the client side
+    if (typeof window !== 'undefined') {
+      const tab = parseInt(searchParams.get("tab")) ?? 0;
+      setActiveTabIndex(tab);
+    }
   }, [searchParams]);
+
   return (
     <section
       className="bg-[#F6F6F6] pt-5 lg:pt-14 pb-10 text-primary"
@@ -26,7 +30,7 @@ const AboutProgram = () => {
           Programs
         </Animate>
         <div className="xl:px-14">
-          <Animate className="flex gap-2.5 sm:gap-5 lg:gap-10 overflow-auto">
+          <Animate className="flex gap-2.5 sm:gap-5 lg:gap-10 overflow-auto justify-center">
             {programs.map((program, index) => (
               <div
                 key={index}
@@ -41,6 +45,8 @@ const AboutProgram = () => {
             ))}
           </Animate>
         </div>
+
+        {/* Wrap dynamic tab content in Suspense */}
         <div className="max-w-[1180px] mx-auto mt-10 lg:mt-20 xl:mt-24">
           <Suspense fallback={<div>Loading...</div>}>
             {activeTabIndex === 0 ? (
@@ -51,9 +57,7 @@ const AboutProgram = () => {
               <ProgramThree />
             ) : activeTabIndex === 3 ? (
               <ProgramFour />
-            ) : (
-              ""
-            )}
+            ) : null}
           </Suspense>
         </div>
       </Container>
