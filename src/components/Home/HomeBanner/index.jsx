@@ -38,6 +38,7 @@ import React, { useState, useEffect } from "react";
 import Button from "../../Button";
 import Container from "../../Container";
 import Animate from "../../Animate";
+import Link from "next/link";
 
 const HomeBanner = () => {
   // Retrieve the banner state from localStorage, default to true if not present
@@ -57,7 +58,7 @@ const HomeBanner = () => {
       <Container className="relative">
         <Animate className="py-7 lg:py-14 lg:px-14 rounded-[20px] text-center text-primary lg:text-white bg-gradient-to-r from-[#ffffff1a] to-transparent">
           <h1 className="h1 mb-5 lg:mb-10 leading-[1.1] capitalize">Discover the power of conscious praying and witness how your life changes</h1>
-          <Button className={"lg:min-w-[250px] px-10"}>learn more</Button>
+          <Link href="/about-us" className="lg:min-w-[250px] p-3 text-[18px] leading-[27px] bg-primary inline-flex justify-center hover:bg-primaryhover">LEARN MORE</Link>
         </Animate>
       </Container>
 
