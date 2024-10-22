@@ -57,7 +57,7 @@ const AboutPage = () => {
       <div className="text-white px-5 bg-primary lg:bg-white">
         <Animate className="max-w-[1350px] mx-auto w-full bg-primary py-6 lg:py-10 px-5">
           <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between lg:items-center max-w-[1070px] mx-auto">
-            <p className="lg:text-lg max-w-[780px] leading-[1.5]">JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING <span className="font-medium">(Early bird offer 99RS - Price slashed from 2999Rs) </span></p>
+            <p className="lg:text-lg max-w-[780px] leading-[1.5]">JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING <span className="font-medium">(Early bird offer 99RS - <span className="line-through">Price slashed from 2999Rs</span>) </span></p>
             <Button className={"xl:min-w-[340px]"} varient="light">register now</Button>
           </div>
         </Animate>

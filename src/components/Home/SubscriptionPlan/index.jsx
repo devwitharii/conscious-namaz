@@ -37,7 +37,7 @@ const SubscriptionPlan = () => {
                   <p className="text-lg xl:text-xl text-primary lg:text-black">
                     {" "}
                     Tahajjud Namaaz <br />
-                    <strong>Three-day</strong> Program 
+                    <strong>Three-day</strong> Program
                   </p>
                 </div>
                 <div className="flex gap-4 gap-lg-5 pt-5">
@@ -68,7 +68,7 @@ const SubscriptionPlan = () => {
                   <p className="text-lg xl:text-xl text-primary lg:text-black">
                     {" "}
                     Personalised and Guided Islamic Meditation{" "}
-                    <strong>(3 sessions of one hour each)@ (5999Rs) </strong>
+                    {/* <strong>(3 sessions of one hour each)@ (5999Rs) </strong> */}
                   </p>
                 </div>
                 <div className="flex gap-4 gap-lg-5 pt-5">
@@ -99,10 +99,10 @@ const SubscriptionPlan = () => {
                   <p className="text-lg xl:text-xl text-primary lg:text-black">
                     {" "}
                     Group Meditations{" "}
-                    <strong>
+                    {/* <strong>
                       (8999Rs) (3 sessions of one hour each- Only ten people per
                       session)
-                    </strong>
+                    </strong> */}
                   </p>
                 </div>
                 <div className="flex gap-4 gap-lg-5 pt-5">
@@ -133,7 +133,7 @@ const SubscriptionPlan = () => {
                   <p className="text-lg xl:text-xl text-primary lg:text-black">
                     {" "}
                     Zikr Meditations for powerful Healing{" "}
-                    <strong>(4999Rs) (11 sessions of one hour)</strong> 
+                    {/* <strong>(4999Rs) (11 sessions of one hour)</strong> */}
                   </p>
                 </div>
                 <div className="flex gap-4 gap-lg-5 pt-5">
