@@ -53,7 +53,7 @@ const ArticleOnePage = () => {
                   </span>
                   <span className="lg:text-xl font-medium lg:mt-3">Previous Blog</span>
                 </div>
-                <h4 className="hidden lg:[display:-webkit-box]  line-clamp-2 text-2xl font-medium leading-[1.5]">Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine</h4>
+                <h4 className="hidden lg:[display:-webkit-box]  line-clamp-2 text-2xl font-medium leading-[1.5]">Discover the Profound Benefits and Transformative Power of a Conscious Prayer Routine</h4>
               </Link>
             </div>
             <div className="flex-1 ">

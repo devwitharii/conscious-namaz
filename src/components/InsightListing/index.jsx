@@ -34,21 +34,21 @@ export default InsightListing
 
 const data = [
     {
-      title : "Why is conscious Namaaz more powerful compared to the way it is offered by many?",
+      title : "Discover the Profound Benefits and Transformative Power of a Conscious Prayer Routine",
       description : "The human mind runs on two modes, one is conscious and the other is subconscious. For an average human being, 95% of the time during their state of wakefulness, the subconscious mind operates, and barely 5% the conscious mind comes to play. To understand the conscious mind, we need to first understand the subconscious mind a little deeper. Let’s look into the activities that the subconscious mind operates with,",
       img: "/images/insights/img-lg-1.webp",
       time : "15 min read",
       url :"/insights/article-one"
     },
     {
-      title : "Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine",
+      title : "The Power of Quranic Recitations and Vibrations",
       description : "Delve into the numerous benefits of maintaining a consistent prayer routine. From mental well-being to spiritual growth, see how regular prayer can positively impact various aspects of your life.",
       img: "/images/insights/img-lg-2.webp",
       time : "15 min read",
       url :"/insights/article-two",
     },
     {
-      title : "The benefits of consistent prayer",
+      title : "The Importance of the post Namaz meditation",
       description : "Learn about the mental and spiritual benefits of maintaining a consistent prayer routine.",
       img: "/images/insights/img-lg-3.webp",
       time : "8 min read",

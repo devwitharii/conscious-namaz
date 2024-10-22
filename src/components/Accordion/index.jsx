@@ -37,7 +37,7 @@ function Accordion({ title, isOpen = false, children }) {
         style={{ maxHeight: `${setHeight}` }}
         className="transition-all duration-500 overflow-hidden"
       >
-        <div className="pb-7 pt-3 text-lg leading-[1.5] pe-7">
+        <div className="pb-7 pt-3 text-lg leading-[1.5] pe-7 space-y-4">
             {children}
         </div>
       </div>

@@ -26,7 +26,7 @@ const ArticleOnePage = () => {
               className="object-cover"
               />
           </Animate>
-          <Animate as="h2" className="text-[32px] lg:text-[40px] leading-[1.2] mb-5 lg:mb-8 ff-2">Discover the Profound Benefits and Transformative Power of a Consistent Prayer Routine</Animate>
+          <Animate as="h2" className="text-[32px] lg:text-[40px] leading-[1.2] mb-5 lg:mb-8 ff-2">Discover the Profound Benefits and Transformative Power of a Conscious Prayer Routine</Animate>
           <Animate className="admin-content-area">
             <p>
             The human mind runs on two modes, one is conscious and the other is subconscious. For an average human being, 95% of the time during their state of wakefulness, the subconscious mind operates, and barely 5% the conscious mind comes to play. To understand the conscious mind, we need to first understand the subconscious mind a little deeper. Let’s look into the activities that the subconscious mind operates with,
