@@ -29,8 +29,8 @@ const ProgramFour = () => {
             </div>
             <ProgramContainer>
                 <h3>Itinerary of the program</h3>
-                <p>As Muslims we have five prayers that are Farz(compulsory) and the sixth prayer is optional but also the most virtues Nafl prayer. This prayer is called the Tahajjud Namaaz. Since this night time prayer is not obligatory, very few of us withdraw the real benefit from it (i.e. the power of manifesting anything pure).</p>
-                <p>Be it nurturing your spirit by experiencing a deeper connection with Allah, or be it healing your physical and mental body, or manifesting your perfect life, everything is graciously available if you "consciously surrender" to the real power of Tahajjud Namaaz.</p>
+                <p>As Muslims we have five prayers that are Farz(compulsory) and the sixth prayer is optional but also the most virtues Nafl prayer. This prayer is called the Tahajjud Namaz. Since this night time prayer is not obligatory, very few of us withdraw the real benefit from it (i.e. the power of manifesting anything pure).</p>
+                <p>Be it nurturing your spirit by experiencing a deeper connection with Allah, or be it healing your physical and mental body, or manifesting your perfect life, everything is graciously available if you "consciously surrender" to the real power of Tahajjud Namaz.</p>
             </ProgramContainer>
         </>
     )

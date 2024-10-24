@@ -68,7 +68,7 @@ const AboutProgram = () => {
 export default AboutProgram;
 
 const programs = [
-  "Three-day Tahajjud Namaaz Program",
+  "Three-day Tahajjud Namaz Program",
   "Personalised and Guided Islamic Meditation",
   "Group Meditations",
   "Zikr Meditations for powerful Healing",

@@ -59,9 +59,9 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <Button className={"min-w-[200px] xl:min-w-[257px] ms-8 xl:ms-14"}>
+            {/* <Button className={"min-w-[200px] xl:min-w-[257px] ms-8 xl:ms-14"}>
               {HEADER_DATA.button.label}
-            </Button>
+            </Button> */}
           </>
         ) : (
           <span className="ms-auto" onClick={() => setHasShowMenu(state => !state)}>
@@ -93,9 +93,9 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-              <Button className={"w-full mt-auto"}>
+              {/* <Button className={"w-full mt-auto"}>
                 {HEADER_DATA.button.label}
-              </Button>
+              </Button> */}
             </div>
           )
         }
@@ -124,8 +124,12 @@ const HEADER_DATA = {
       url: "/#faq",
       label: "FAQs",
     },
+    {
+      url: "/terms-and-condition",
+      label: "T&C",
+    },
   ],
-  button: {
-    label: "subscribe now",
-  },
+  // button: {
+  //   label: "subscribe now",
+  // },
 };

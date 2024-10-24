@@ -36,7 +36,7 @@ const SubscriptionPlan = () => {
                 <div className="flex-1 flex items-center">
                   <p className="text-lg xl:text-xl text-primary lg:text-black">
                     {" "}
-                    Tahajjud Namaaz <br />
+                    Tahajjud Namaz <br />
                     <strong>Three-day</strong> Program
                   </p>
                 </div>

@@ -18,7 +18,7 @@
 //       <div className="absolute w-full top-full lg:bottom-0 left-0 z-[9]"><div className="bg-primary text-white py-5 px-5">
 //         <div className="max-w-[1306px] mx-auto w-full relative">
 //           <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between">
-//             <p className="lg:text-lg max-w-[780px] leading-[1.5]">JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING <span className="font-medium">(Early bird offer 99RS - Price slashed from 2999Rs) </span></p>
+//             <p className="lg:text-lg max-w-[780px] leading-[1.5]">JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING <span className="font-medium">(Early bird offer 99RS - Price slashed from 2999Rs) </span></p>
 //             <Button className={"xl:min-w-[340px]"} varient="light">register now</Button>
 //           </div>
 //           <Button className={"absolute top-[-40px] right-1 lg:hidden !p-0 size-10 rounded-full flex items-center justify-center border border-gray-200 !text-primary !bg-[#F5F5F5]"}>
@@ -69,7 +69,7 @@ const HomeBanner = () => {
             <div className="max-w-[1306px] mx-auto w-full relative">
               <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between">
                 <p className="lg:text-lg max-w-[780px] leading-[1.5]">
-                  JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING{" "}
+                  JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING{" "}
                   <span className="font-medium">(Early bird offer 99RS - <span className="line-through">Price slashed from 2999Rs</span>)</span>
                 </p>
                 <Button className={"xl:min-w-[340px]"} varient="light">register now</Button>

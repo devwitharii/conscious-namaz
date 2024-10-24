@@ -32,8 +32,8 @@ const AboutWelcome = () => {
       </figure>
       <Container>
         <Animate className='text-center py-7 lg:py-12 text-primary'>
-          <h1 className='h2 ff-2 mb-3 leading-[1.2]'>Welcome to Conscious Namaaz</h1>
-          <p className='text-xl tracking-[-0.2px]'>Making Namaaz more Meaningful & Powerful</p>
+          <h1 className='h2 ff-2 mb-3 leading-[1.2]'>Welcome to Conscious Namaz</h1>
+          <p className='text-xl tracking-[-0.2px]'>Making Namaz more Meaningful & Powerful</p>
         </Animate>
       </Container>
     </section>

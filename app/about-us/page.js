@@ -20,7 +20,7 @@ const AboutPage = () => {
 
       <Container className={"py-7 lg:py-14 text-primary"} >
         <Animate as="h2" className="h2 ff-2 text-center px-5 max-w-[1200px] mx-auto leading-[1.2]">
-          Do you think the way you offer Namaaz every day is the most powerful way? If you feel yes, your life will be nothing less than a blessing.
+          Do you think the way you offer Namaz every day is the most powerful way? If you feel yes, your life will be nothing less than a blessing.
         </Animate>
       </Container>
 
@@ -46,7 +46,7 @@ const AboutPage = () => {
       <Container className={"py-7 lg:py-14 text-primary"}>
         <Animate>
           <h2 className="ff-2 mb-8 text-[32px] lg:text-[40px] leading-[1.2] lg:text-center">What is Conscious Namaz and its purpose?</h2>
-          <p className="lg:text-lg leading-[1.5] lg:text-center max-w-[1180px] mx-auto">Since Namaaz is the most powerful and sacred ritual given to mankind, it is supposed to be performed with an utter presence of mind and not just a subconscious recitation. Have you stopped for a moment and thought that the Namaaz you offer, is just a subconsciously pre-recorded version of something that you learnt as a child? It's like a childhood memory playing from your subconscious mind. In fact, one of the most important purposes of Namaaz is to make you more conscious. Conscious praying is when you recite every word being totally present (not mind wandering) and while feeling the vibration of every word from the Qur'an deep down your heart to your spine and skin. At Conscious Namaaz we teach you to deeply "feel" the prayer you offer (the most important factor responsible for powerful prayers) than just mindless recitations and we will enlighten you on the do's and don’ts of conscious praying which will help you achieve and manifest anything halaal(pure) that you desire.</p>
+          <p className="lg:text-lg leading-[1.5] lg:text-center max-w-[1180px] mx-auto">Since Namaz is the most powerful and sacred ritual given to mankind, it is supposed to be performed with an utter presence of mind and not just a subconscious recitation. Have you stopped for a moment and thought that the Namaz you offer, is just a subconsciously pre-recorded version of something that you learnt as a child? It's like a childhood memory playing from your subconscious mind. In fact, one of the most important purposes of Namaz is to make you more conscious. Conscious praying is when you recite every word being totally present (not mind wandering) and while feeling the vibration of every word from the Qur'an deep down your heart to your spine and skin. At Conscious Namaz we teach you to deeply "feel" the prayer you offer (the most important factor responsible for powerful prayers) than just mindless recitations and we will enlighten you on the do's and don’ts of conscious praying which will help you achieve and manifest anything halaal(pure) that you desire.</p>
         </Animate>
       </Container>
 
