@@ -70,7 +70,7 @@ const HomeBanner = () => {
               <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 lg:justify-between">
                 <p className="lg:text-lg max-w-[780px] leading-[1.5]">
                   JOIN US FOR THREE NIGHTS OF TAHAJJUD NAMAZ AND WITNESS YOURSELF THE POWER OF CONSCIOUS PRAYING{" "}
-                  <span className="font-medium">(Early bird offer 99RS - <span className="line-through">Price slashed from 2999Rs</span>)</span>
+                  <span className="font-medium">(Early bird offer 99RS - <span className="line-through">2999Rs</span>)</span>
                 </p>
                 <Button className={"xl:min-w-[340px]"} varient="light">register now</Button>
               </div>

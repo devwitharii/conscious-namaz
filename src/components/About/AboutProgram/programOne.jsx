@@ -7,7 +7,7 @@ const ProgramOne = () => {
         <>
             <div className='-mx-2 lg:-mx-7 flex flex-wrap -mt-14 lg:items-center'>
                 <Animate className='px-2 w-full lg:w-2/3 lg:px-7 mt-14'>
-                    <h3 className='text-[32px] ff-2 mb-5 lg:mb-8 leading-[1.2]'>Three-day Tahajjud Namaz Program</h3>
+                    <h3 className='text-[32px] ff-2 mb-5 lg:mb-8 leading-[1.2]'>Three-day Tahajjud Namaz Program (2999Rs) (6 sessions)</h3>
                     <p className='lg:text-lg leading-[1.5]'>We are all aware of the miracles TAHAJJUD prayer can offer, but sadly we have underestimated its power to an extent we almost neglected this moon-light prayer. The soul purpose of Conscious Namaz is to call every Muslim and also non-Muslim to reap maximum benefits of this sacred time and conscious prayer.</p>
                 </Animate>
                 <div className='px-2 w-full lg:w-1/3 lg:px-7 mt-14'>
@@ -21,7 +21,7 @@ const ProgramOne = () => {
                             />
                         </figure>
                         <div className='bg-white p-5'>
-                            <p className='text-lg lg:text-xl mb-5'>Tahajjud Namaz<br /> <strong>Three-day</strong> Program  </p>
+                            <p className='text-lg lg:text-xl mb-5'>Tahajjud Namaz<br /> <strong>Three-day</strong> Program  (2999Rs)(6 sessions)</p>
                             <Button className={`w-full`}>BUY NOW</Button>
                         </div>
                     </div>
