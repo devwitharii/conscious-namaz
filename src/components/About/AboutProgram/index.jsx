@@ -30,7 +30,7 @@ const AboutProgram = () => {
           Programs
         </Animate>
         <div className="xl:px-14">
-          <Animate className="flex gap-2.5 sm:gap-5 lg:gap-10 overflow-auto">
+          <Animate className="flex justify-start 2xl:justify-center gap-2.5 sm:gap-5 lg:gap-10 overflow-auto">
             {programs.map((program, index) => (
               <div
                 key={index}
