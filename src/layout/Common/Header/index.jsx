@@ -93,9 +93,7 @@ const Header = () => {
                   </li>
                 ))}
               </ul>
-              {/* <Button className={"w-full mt-auto"}>
-                {HEADER_DATA.button.label}
-              </Button> */}
+
             </div>
           )
         }
@@ -129,7 +127,4 @@ const HEADER_DATA = {
       label: "T&C",
     },
   ],
-  // button: {
-  //   label: "subscribe now",
-  // },
 };
